@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine\GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Graphics\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Graphics\Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\IO\Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Objects\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Objects\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Objects\Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\utils\RelativePosition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Objects\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\utils\EnemyBehaviour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Objects\AlienBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\utils\EnemyDifficulty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\utils\RGB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\utils\Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Physics\Hit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Gameplay\GameplayMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Gameplay\SinglePlayerSurvivalMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\IO\TextRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\IO\GameStats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine\GameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spaceship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Graphics\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Graphics\Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\IO\Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Objects\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Objects\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Objects\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Objects\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Objects\AlienBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\utils\EnemyDifficulty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Gameplay\SinglePlayerSurvivalMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Physics\Hit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\IO\TextRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\IO\GameStats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\user.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\userPhoto.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rocket.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alien.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ufo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bb.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\user.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\enemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\blt.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\blt2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bltEnemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\background.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\z.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\y.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\w.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\v.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\o.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\p.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\q.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\r.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\t.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\u.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\n.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\fontt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\i.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\j.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\k.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\l.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\m.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\font\!.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GameEngine\Graphics\SOIL\projects\VC9\Debug\SOIL.lib" />
+  </ItemGroup>
+</Project>
